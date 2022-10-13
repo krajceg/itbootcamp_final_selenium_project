@@ -44,8 +44,8 @@ public class AdminCitiesTests extends BasicTest{
 		citiesPage.getNewEditDialogSaveBtn().click();
 		
 		messagePopUpPage.waitForPopUpToBeDisplayed();
-		Assert.assertTrue(messagePopUpPage.getElementWithNewEditPopUpMessage().getText().contains("Saved successfully"), "Pop up message should be "
-				+ "'Saved successfully'");
+		Assert.assertTrue(messagePopUpPage.getElementWithNewEditPopUpMessage().getText().contains("Saved successfully"), "Pop up message "
+				+ "should be 'Saved successfully'");
 	}
 	
 	@Test(priority = 40)
@@ -66,8 +66,8 @@ public class AdminCitiesTests extends BasicTest{
 		citiesPage.getNewEditDialogSaveBtn().click();
 		
 		messagePopUpPage.waitForPopUpToBeDisplayed();
-		Assert.assertTrue(messagePopUpPage.getElementWithNewEditPopUpMessage().getText().contains("Saved successfully"), "Pop up message should be "
-				+ "'Saved successfully'");
+		Assert.assertTrue(messagePopUpPage.getElementWithNewEditPopUpMessage().getText().contains("Saved successfully"), "Pop up message "
+				+ "should be 'Saved successfully'");
 	}
 	
 	@Test(priority = 50)

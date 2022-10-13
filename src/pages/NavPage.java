@@ -62,19 +62,23 @@ public class NavPage {
 	}
 	
 	public WebElement getEsLanguageBtn() {
-		return this.driver.findElement(By.xpath("//div[text()='FR']"));
+		return this.driver.findElement(By.xpath("//div[text()='ES']"));
 	}
 	
 	public WebElement getFrLanguageBtn() {
-		return this.driver.findElement(By.xpath("//div[text()='CN']"));
+		return this.driver.findElement(By.xpath("//div[text()='FR']"));
 	}
 	
 	public WebElement getCnLanguageBtn() {
-		return this.driver.findElement(By.xpath("//div[text()='UA']"));
+		return this.driver.findElement(By.xpath("//div[text()='CN']"));
 	}
 	
 	public WebElement getUaLanguageBtn() {
-		return this.driver.findElement(By.id("//*[@id='list-item-88']"));
+		return this.driver.findElement(By.id("///div[text()='UA']"));
+	}
+	
+	public WebElement getHeaderOne() {
+		return this.driver.findElement(By.xpath("//h1"));
 	}
 	
 }

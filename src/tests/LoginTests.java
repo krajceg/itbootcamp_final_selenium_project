@@ -74,7 +74,6 @@ public class LoginTests extends BasicTest{
 	public void logout() throws InterruptedException {	
 		Assert.assertTrue(navPage.getLogoutBtn().isDisplayed(), "Logout button should be displayed");
 		navPage.getLogoutBtn().click();
-		Thread.sleep(2000);
 	}
 	
 }

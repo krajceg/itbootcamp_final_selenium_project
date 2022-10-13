@@ -60,4 +60,9 @@ public class MessagePopUpPage {
 	public WebElement getSuccessfullyDeletedPopUp() {
 		return this.driver.findElement(By.xpath("//div[contains(text(), 'Deleted successfully')]"));
 	}
+	
+	public WebElement getSuccessfullySavedPopUp() {
+		return this.driver.findElement(By.xpath("//div[contains(text(), 'Profile saved')]"));
+	}
+	
 }
